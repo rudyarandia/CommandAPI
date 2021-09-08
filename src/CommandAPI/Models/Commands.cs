@@ -9,9 +9,9 @@ namespace CommandAPI.Models
     [Required]
     [MaxLength(250)]
     public string HowTo {get; set;}
-    [required]
+    //[required]
     public string Platform {get; set;}
-    [required]
+    //[required]
     public string CommandLine {get; set;}
   }
 }
